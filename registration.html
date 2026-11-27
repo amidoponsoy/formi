@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <table align="center" class="title">
+    <tr>
+      <td>
+        <h1 align="center" style="font-family: Georgia, 'Times New Roman', Times, serif">REGISTRATION FORM</h1>
+        <p align="center" style="color: #704452">Please fill in this form to create an account.</p>
+      </td>
+    </tr>
+  </table><br><br>
+
+  <form action="#thanks" align="center" style="max-width: 400px; margin: 0 auto;">
+    <img src="https://cdn-icons-png.flaticon.com/512/17637/17637811.png"><br> <br>
+
+    <table align="center" class="namess">
+      <tr>
+        <td>
+          <label for="firstname">First Name:</label><br>
+          <input style="color: black;" type="text" id="firstname" name="firstname" placeholder="Enter your first name" required>
+        </td>
+        <td>
+          <label for="lastname">Last Name:</label><br>
+          <input style="color: black;" type="text" id="lastname" name="lastname" placeholder="Enter your last name" required>
+        </td>
+      </tr>
+    </table>
+    <br>
+
+    <label for="username">Username:</label><br>
+    <input style="color: black;" minlength="5" maxlength="12" type="text" id="username" name="username" placeholder="5 to 12 characters" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input style="color: black;" type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <label for="phone">Mobile Number:</label><br>
+    <input style="color: black;" type="tel" id="phone" name="phone" pattern="[0-9]{11}" title="Numbers only (11 digits)" placeholder="Enter your mobile number" required><br><br>
+
+    <table align="center">
+      <tr>
+        <td>
+          <label for="password" style="color: #704452;">Password:</label><br>
+          <input type="password" id="password" name="password" minlength="8" maxlength="16" placeholder="8 to 16 characters" required><br><br>
+        </td>
+        <td>
+          <label for="confirm_password" style="color: #704452;">Confirm Password:</label><br>
+          <input type="password" id="confirm_password" name="confirm_password" minlength="8" maxlength="16" placeholder="Confirm your password" required><br><br>
+        </td>
+      </tr>
+    </table>
+
+    <table align="left">
+      <tr align="left">
+        <td>
+          <label style="color: #704452;">Gender:</label><br>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label><br>
+        </td>
+      </tr>
+    </table>
+
+    <table align="right">
+      <tr>
+        <td align="center">
+          <label style="color: #704452;">Language Spoken:</label><br>
+          <input type="checkbox" id="cebuano" name="language" value="cebuano">
+          <label for="cebuano">Cebuano</label><br>
+          <input type="checkbox" id="tagalog" name="language" value="tagalog">
+          <label for="tagalog">Tagalog</label><br>
+          <input type="checkbox" id="english" name="language" value="english">
+          <label for="english">English</label><br>
+          <input type="checkbox" id="others" name="language" value="others">
+          <label for="others">Others</label><br>
+        </td>
+      </tr>
+    </table><br><br><br><br><br><br>
+
+    <label for="religion">Religion:</label><br>
+    <select id="religion" name="religion" required>
+      <option value="">-- Select religion --</option>
+      <option value="catholic">Catholic</option>
+      <option value="christian">Christian</option>
+      <option value="islam">Islam</option>
+      <option value="iglesia_ni_cristo">Iglesia ni Cristo</option>
+      <option value="others">Others</option>
+    </select><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea style="text-align: center; color: black;" id="address" name="address" rows="3" placeholder="Enter your address" required></textarea><br>
+
+    <label for="dob">Date of Birth (DD-MM-YYYY):</label><br>
+    <input style="text-align: center; color: black; " type="date" id="dob" name="dob"  placeholder="DD-MM-YYYY" required><br>
+
+    <label for="upload">Upload your Resume or Display Picture:</label><br>
+    <input type="file" id="upload" name="upload" accept="image/*,.pdf,.doc,.docx"><br><br>
+
+    <button type="submit">SUBMIT</button>
+  </form>
+
+  <!-- Success message -->
+  <table id="thanks">
+    <tr>
+      <td>
+        <table align="center" class="done">
+          <tr>
+            <td>
+              <img class="check" src="https://png.pngtree.com/png-vector/20231202/ourmid/pngtree-checkbox-icon-like-pink-png-image_10811971.png"><br>
+              <h1>THE REGISTRATION WAS SUCCESSFULLY SUBMITTED</h1>
+              <a class="back" href="registration.html"><b>Back to Registration</b></a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+ 
+  <p align="center" style="color: #704452;">From: Joed Alfonz C. Amido/BSIT-1L</p>
+</body>
+</html>

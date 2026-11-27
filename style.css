@@ -1,0 +1,160 @@
+body {
+    background-color: #fde8ee;
+    background-image: url("image/wallpapar.jpg");
+    background-size: cover;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin-top: -36%;
+}
+
+table.title {
+    background-color: #F8B4C8;
+    color: #af4063;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #D94F78;
+    height: 100px;
+    width: 670px;
+}
+
+form {
+    color: #704452;
+    background-color: #F8B4C8;
+    padding: 100px;
+    border-radius: 30px;
+    border: 2px solid #D94F78;
+    height: auto;
+    width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    input[name=dob]{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    }
+
+table.namess {
+    color: #704452;
+}
+
+select, textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=password] {
+    color: #704452;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type=file] {
+    color: #704452;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+input[name=username], input[name=email], input[name=phone] {
+    text-align: center;
+}
+
+button {
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #D94F78;
+    color: white;
+    padding: 15px 65px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ---------- Success message css ---------- */
+
+#thanks {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fde8ee;
+    background-image: url("image/wallpapar.jpg");
+    background-size: cover;
+}
+
+#thanks:target {
+    display: table;
+}
+
+#thanks > tbody > tr > td {
+    vertical-align: middle;
+}
+
+table.done {
+    background-color: #eec7c7;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    width: 800px;
+    border: 2px solid #D94F78;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table.done td {
+    text-align: center;
+    padding: 20px;
+}
+
+table.done h1 {
+    padding: 20px;
+    margin: 0;
+    color: #704452;
+}
+
+img.check {
+    width: 100px;
+    height: 100px;
+    margin-top: 0;
+}
+
+a.back {
+    display: inline-block;
+    margin-top: 20px;
+    width: 210px;
+    padding: 30px 0;
+    border-radius: 10px;
+    background-color: #D94F78;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
